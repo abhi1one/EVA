@@ -1,0 +1,30 @@
+Have tried to write few line regarding research.
+Title: Gradcam as bonding box
+Problem statement: Presenting Gradcam as a plausible alternative to bonding box solution by training a CNN in 3 parts and get a bonding Bax around the defined class of object. 
+Part 1: Train for 50 epochs and review grad cam visualization
+Part 2: Continue with weights from part 1 and train more to get better visualization of Gradcam as bonding box
+Part 3: Train and tune Part 2 training to get a more precise bonding box from head cam
+
+Things we will need to discuss and finalize:
+1. Data set we want to use-Coco dataset(Suggested by Rohan)
+2. Model we want to use
+3. Define a efficient grad cam function
+4. How do we define weights/loss to so the model can observe full object in the image
+
+Questions to address:
+1. How to copy gradcam for 1 network to another?
+2. How to use gradcam for next training?
+3. What needs to be done in order to consider varying size of gradcam?
+4. How to replicate Ancor box with respect to gradcam?
+5. How to draw bonding box once we have gradcam?
+6. Are there pretrained weights for Coco data set?
+7. Is annoitation necessary for training object detection?
+
+To get started: 6, 1, 2
+
+So first steps for us would be to:
+Review Coco data set and figure out classes.
+Find out a model and availability of reusable weigths for Coco dataset.
+
+Why to use gradcam instead of bonding box?
+-
